@@ -17,12 +17,22 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/Roll_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Roll No.:"
+        android:layout_below="@+id/editTextName"
+        android:layout_margin="50dp"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+    <EditText
         android:id="@+id/editTextMarks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="MARKS:"
-        android:layout_below="@+id/editTextName"
+        android:layout_below="@+id/Roll_num"
         android:layout_margin="50dp"
         android:inputType="textPersonName"
         android:textSize="20sp" />

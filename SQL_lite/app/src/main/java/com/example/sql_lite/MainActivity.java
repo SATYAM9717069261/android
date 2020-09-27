@@ -15,7 +15,7 @@ import android.widget.ZoomButtonsController;
     DatabaseHelper myDb;
 
     Button btn_insert_data,btn_dataView;
-    EditText text_Name , text_Marks;
+    EditText text_Name , text_Marks,text_Roll;
 
 
     @Override
@@ -23,9 +23,9 @@ import android.widget.ZoomButtonsController;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         myDb=new DatabaseHelper( this );
-
         btn_insert_data=(Button) findViewById( R.id.btn_insert);
         text_Name=(EditText) findViewById(R.id.editTextName);
+        text_Roll=(EditText) findViewById(R.id.Roll_num);
         text_Marks=(EditText) findViewById(R.id.editTextMarks);
         btn_dataView=(Button) findViewById(R.id.btn_ViewAll);
 
